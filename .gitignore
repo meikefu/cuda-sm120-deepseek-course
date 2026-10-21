@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# PyTorch JIT Cache
+torch_extensions/
+.cache/
+
+# CUDA / C++ Build artifacts
+*.o
+*.obj
+*.lib
+*.a
+*.dll
+*.dylib
+*.exe
+*.out
+*.exp
+
+# OS / Editor
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Cutlass clone cache
+cutlass/
